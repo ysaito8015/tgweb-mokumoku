@@ -3,10 +3,10 @@ scheme = "localhost"
 host = "0.0.0.0"
 title = "Hello World"
 port = "3005"
-# layout = ""
+layout = "common"
+year = 2023
 
 [data]
-current_year = 2023
 div-id = "special"
 "og:image" = "%{images/undraw_cofee_time_1a47.svg}"
 
@@ -59,44 +59,42 @@ preconnect = "https://fonts.googleapis.com"
   >
 </script>
 
-<body>
-  <h1 class="txt-2xl font-bold">Greeting</h1>
-  <div tg:class="blog-article">
-    <h2>
-      Good enogh!
-    </h2>
-    <div class="bg-green-300 p-4">
-      <p>Hello, world!</p>
-      <p>
-        <tg:prop name="scheme">
-        </tg:prop>
+<h1 class="txt-2xl font-bold">Greeting</h1>
+<div tg:class="blog-article">
+  <h2>
+    Good enough!
+  </h2>
+  <div class="bg-green-300 p-4">
+    <p>Hello, world!</p>
+    <p>
+      <tg:prop name="scheme">
+      </tg:prop>
+    </p>
+    <p>
+      <tg:prop name="port">
+      </tg:prop>
+    </p>
+  </div>
+  <div tg:class="card">
+    <div id="${div-id}" tg:class="red-box">
+      <p style="font-family: 'Roboto', sans-serif; font-size: 24px;">
+        test 01
       </p>
-      <p>
-        <tg:prop name="port">
-        </tg:prop>
-      </p>
-    </div>
-    <div tg:class="card">
-      <div id="${div-id}" tg:class="red-box">
+      <span class="material-symbols-outlined">home</span>
+      <span class="material-symbols-rounded">delete</span>
+      <span class="material-symbols-sharp">shopping_bag</span>
+    </div> <!-- / .tg:class red-box -->
+    <div tg:class="blue-square">
+      <button hx-post="/clicked" hx-swap="outerHTML">
+        Click Me
+      </button>
+    </div> <!-- / .tg:class blue-square -->
+    <div tg:class="box">
         <p style="font-family: 'Roboto', sans-serif; font-size: 24px;">
-          test 01
+          test 02
         </p>
-        <span class="material-symbols-outlined">home</span>
-        <span class="material-symbols-rounded">delete</span>
-        <span class="material-symbols-sharp">shopping_bag</span>
-      </div> <!-- / .tg:class red-box -->
-      <div tg:class="blue-square">
-        <button hx-post="/clicked" hx-swap="outerHTML">
-          Click Me
-        </button>
-      </div> <!-- / .tg:class blue-square -->
-      <div tg:class="box">
-          <p style="font-family: 'Roboto', sans-serif; font-size: 24px;">
-            test 02
-          </p>
-          <img src="/images/undraw_coffee_time_1a47.svg">
-      </div> <!-- / .tg:class box -->
-    </div> <!-- / .tg:class card -->
-  </div> <!-- / .tg:class blog-article -->
-</body>
+        <img src="/images/undraw_coffee_time_1a47.svg">
+    </div> <!-- / .tg:class box -->
+  </div> <!-- / .tg:class card -->
+</div> <!-- / .tg:class blog-article -->
 
