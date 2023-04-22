@@ -1,10 +1,8 @@
 title = "No title"
+font-material-symbols = true
 
 [meta]
 viewport = "width=device-width, initial-scale=1"
 description = "Description"
 robots = "index,follow"
 generator = "Teamgenik"
-
-[font]
-material-symbols = true
