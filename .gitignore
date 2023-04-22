@@ -2,3 +2,4 @@
 /dist
 /sites/*/dist
 /sites/*/tailwind.config.js
+.envrc

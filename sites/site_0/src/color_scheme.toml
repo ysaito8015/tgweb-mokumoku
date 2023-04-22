@@ -1,6 +1,9 @@
-pri-s = "#edce77"
-sec-s = "#dfed77"
-acc-s = "#77ede5"
-neu-s = "#b5b5b5"
-bas-s = "#ffffff"
-nav-s = "#222222"
+# {palette name}-{modifier}
+# {modifier}
+# s: standard, b: brighter, d: darker, c: contrasting
+pri-s = "#edce77" # pri: primary color
+sec-s = "#dfed77" # sec: secondary color
+acc-s = "#77ede5" # acc: accent color
+neu-s = "#b5b5b5" # neu: neutral color
+bas-s = "#ffffff" # bas: base color
+nav-s = "#222222" # nav: navigation color
