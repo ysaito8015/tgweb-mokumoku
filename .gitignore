@@ -1,5 +1,6 @@
+.envrc
 /node_modules
 /dist
 /sites/*/dist
 /sites/*/tailwind.config.js
-.envrc
+/sites/*/tailwind.css
