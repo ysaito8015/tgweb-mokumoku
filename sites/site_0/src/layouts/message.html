@@ -1,0 +1,14 @@
+<body class="p-2">
+  <tg:content>
+  </tg:content>
+	<tg:if-complete>
+	<hr class="h-px my-8 bg-gray-200 border-0">
+		<div class="bg-gray-800 text-white p-4">
+			To: <tg:data name="custom-name"></tg:data>
+		</div>
+		<div class="bg-gray-200 p-4">
+			<tg:slot name="message">
+			</tg:slot>
+		</div>
+	</tg:if-complete>
+</body>
