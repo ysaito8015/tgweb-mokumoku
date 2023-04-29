@@ -1,5 +1,6 @@
 .envrc
 memo.md
+/tmp
 /node_modules
 /dist
 /sites/*/dist
