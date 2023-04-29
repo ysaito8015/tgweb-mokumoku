@@ -4,10 +4,10 @@ layer = 0
 
 <section class="bg-base-200 p-4 border-border-rounded">
 	<div class="flex">
-	  <img src="/images/hello.jpg" alt="">
-	  <div>
-	    <h1 class="text-5xl font-bold">Hello, world!</h1>
-	    <p>The quick brown fox junps over the lazy dog.</p>
-	  </div>
+		<img src="/images/${image-path}" alt="" width="400">
+		<div class="text-5xl font-bold">
+			Hello, world!
+			<tg:slot name="paragraph"></tg:slot>
+		</div>
 	</div>
 </section>
