@@ -1,5 +1,7 @@
 title = "No title"
-font-material-symbols = true
+
+[font]
+material-symbols = true
 
 [meta]
 viewport = "width=device-width, initial-scale=1"
